@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(db C)
+project(playground C)
 
-add_executable(db lib/main.c)
+add_executable(playground lib/main.c)
