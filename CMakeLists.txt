@@ -4,4 +4,5 @@ project(db C)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/runtime)
 
-add_executable(db lib/main.c)
+add_executable(db 
+	lib/main.c)
